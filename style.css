@@ -1,0 +1,547 @@
+/* *{
+  outline: 1px red solid;
+} */
+
+section {
+  margin-top: 100px; 
+  margin-bottom: 100px;
+}
+
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+#menu-switch {
+  display: none;
+  /* position: absolute; */
+}
+
+
+header {
+  background-color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+}
+
+header nav a {
+  color: #000;
+  margin-right: 20px;
+}
+
+.hb {
+  width: 40px;
+  height: 40px;
+}
+
+.advertise {
+  margin: 15px;
+}
+.advertise img{
+  width: 100%;
+}
+
+.feature {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+.feature .feature-title h2{
+  font-size: 23px;
+  margin: 20px;
+  font-weight:bold;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.feature .feature-title p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.feature .feature-title h2 {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+.feature .feature-title p {
+  margin-top: 20px;
+}
+
+.feature-wrap{
+  margin-top: 50px;
+}
+
+
+
+.feature-wrap .trait {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+
+
+}
+
+
+.feature-wrap .trait .txt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.feature-wrap .trait .txt h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.feature-wrap .trait .txt p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.lecturer {
+  margin-bottom: 100px;
+  
+}
+.lecturer .lecturer-title{
+  margin-bottom: 30px;
+}
+
+.lecturer .lecturer-title h2{
+  font-size: 23px;
+  margin: 20px;
+  font-weight:bold;
+
+}
+
+.lecturer .lecturer-title p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.lecturer .lecturer-title h2 {
+  margin-bottom: 40px;
+}
+
+.lecturer .gian{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+
+.lecturer .gian .pic{
+  width: 40%;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.lecturer .gian .pic img{
+  border-radius: 50%;
+  width: 100%;
+}
+.lecturer .gian .main-title {
+  width: 60%;
+}
+
+.lecturer .lecturer-title p {
+  margin-top: 20px;
+}
+
+.lecturer .gian .main-content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lecturer .gian .main-title .social-list ul{
+  display: flex;
+}
+
+.media-news .media-news-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.media-news .news-wrap .news{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.media-news .news-wrap .news h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+.media-news .news-wrap .news p {
+  color: #aaa;
+}
+
+.media-news .more-news {
+  height: 50px;
+  width: 120px;
+  background-color: #f00;
+  line-height: 50px;
+  border-radius: 3px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px ;
+}
+
+.media-news .more-news a{
+  color: #fff;
+  
+}
+
+
+
+.triangle {
+  width: 100%;
+  height: 100px;
+  margin-bottom: -.1px;
+  background-color: rgb(41, 41, 46);
+  clip-path: polygon(0px 100% ,33.3333% 0px , 100% 100%);
+}
+.re-triangle {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(41, 41, 46);
+  clip-path: polygon(0px 0px, 66.6666% 100%, 100% 0px);
+  margin-top: -.2px;
+}
+
+.course {
+  background-color: rgb(41, 41, 46);
+  /* height: 600px; */
+  color: #fff;
+  display: flex;
+  margin: auto;
+}
+
+
+
+.course .short-coures h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.course .short-coures p {
+  font-size: 18px;
+  color: #aaa;
+}
+.course  .otherdetail {
+  background-color: #f00;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  clip-path: polygon(0% 10%, 70% 0%, 100% 10%,100% 90%,30% 100%, 0% 90%);
+  line-height: 50px;
+
+}
+.course .course-detail {
+  font-size: 30px;
+}
+
+
+.course .courselink{
+  color: black;
+  height: 200px;
+  background-color: antiquewhite;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center ;
+  font-size: 20px;
+ line-height: 200px; 
+}
+
+
+
+.course .courselinkwrap {
+  justify-content: space-between;
+}
+
+.row .more-course {
+  height: 50px;
+  width: 120px;
+  background-color: #f00;
+  line-height: 50px;
+  border-radius: 3px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px ;
+}
+
+
+
+
+.row .more-course a{
+  color: #fff;
+}
+
+.LearningPath {
+  margin-bottom: 200px;
+}
+.LearningPath .main-title h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.LearningPath .main-title p{
+  font-size: 20px;
+}
+.LearningPath .pathchoice .txt{
+  background-color:blanchedalmond;
+  border-radius: 3px;
+  
+}
+.LearningPath .pathchoice{
+  margin-top: 30px;
+}
+
+.LearningPath .pathchoice .pic{
+  background-color: blue;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 20px;
+  line-height: 200px;
+  text-align: center;
+  height: 200px;
+}
+.LearningPath  .pathchoice .txt h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border-bottom: #444 1px solid;
+}
+.LearningPath  .pathchoice .txt{
+  padding: 20px;
+}
+.LearningPath  .pathchoice .txt p {
+  margin-top: 20px;
+}
+
+
+
+.article .article h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px red solid;
+}
+
+.article .more-article .txt h3{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.article .more-article .txt p{
+  font-size: 13px;
+  color: #444;
+}
+
+
+
+
+
+
+
+.row .more-art {
+  height: 50px;
+  width: 120px;
+  background-color: #f00;
+  line-height: 50px;
+  border-radius: 3px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px ;
+}
+
+.row .more-art a{
+  color: #fff;
+}
+
+
+.aboutus {
+ 
+  background-color: rgb(41, 41, 46);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+}
+.aboutus .contact .txt{
+  text-align:start
+}
+.aboutus .contact .txt{
+  line-height: 30px;
+}
+
+.aboutus .information ul li{
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.aboutus .information h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.aboutus .information{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+
+
+
+.footer{
+  width: 100%;
+  background-color: rgb(1, 1, 46);
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #aaa;
+  text-align: center;
+  /* height: 50px; */
+  line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+  #menu-switch:checked ~ header nav {
+    display: block;
+    background-color: #fff;
+  }
+
+  
+  .hb {
+    position: relative;
+    margin: 10px;
+  }
+
+
+  .hb span {
+    width: 34px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    left: 3px;
+  }
+
+  .hb span:nth-child(1){
+    top: 8px;
+    transform: rotate(0deg);
+    transition: .1s 0s , transform .1s 0s;
+  }
+  #menu-switch:checked ~ header .hb span:nth-child(1){
+    top: 18px;
+    transform: rotate(45deg);
+    transition: .1s .0s , transform .1s .0s; 
+  }
+  .hb span:nth-child(2){
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 1;
+
+  } 
+
+  #menu-switch:checked ~ header .hb span:nth-child(2){
+    opacity: 0;
+     
+  }
+
+
+  .hb span:nth-child(3){
+    bottom: 8px;
+    transform: rotate(0deg);
+    transition: .1s  , transform .1s 0s; 
+  }
+
+  #menu-switch:checked ~ header .hb span:nth-child(3){
+    bottom: 18px;
+    transform: rotate(-45deg);
+    transition: .1s 0s , transform .1s 0s; 
+  }
+
+
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 20px;
+  }
+  
+
+
+}
+
+@media screen and (min-width:1200px) {
+  .hb {
+    display: none;
+  }
+
+  nav {
+    margin: auto 10px;
+  }
+  /* 手機需要 position top left display:none */
+  
+}
+
+
